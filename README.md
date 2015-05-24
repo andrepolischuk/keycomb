@@ -6,6 +6,9 @@
 
 ```sh
 $ npm install --save keycomb
+```
+
+```sh
 $ component install andrepolischuk/keycomb
 ```
 
