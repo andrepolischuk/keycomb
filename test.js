@@ -1,7 +1,7 @@
 
 'use strict';
 
-var keycomb = require('..');
+var keycomb = require('./');
 var assert = require('assert');
 
 describe('keycomb(string)', function() {

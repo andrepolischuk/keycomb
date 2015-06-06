@@ -2,14 +2,14 @@
 
   > Key combinations parser
 
-## Instalation
+## Install
 
 ```sh
-$ npm install --save keycomb
+npm install --save keycomb
 ```
 
 ```sh
-$ component install andrepolischuk/keycomb
+component install andrepolischuk/keycomb
 ```
 
 ## Usage
