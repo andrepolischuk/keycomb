@@ -38,7 +38,7 @@ function code(input) {
 
   var key;
 
-  for (var k = 0; k < input.length; k++) {
+  for (var k = 0, len = input.length; k < len; k++) {
     key = keycode(input[k]);
     if (key === 18) obj.altKey = true;
     if (key === 17) obj.ctrlKey = true;
@@ -65,7 +65,7 @@ function combination(input) {
   if (input.ctrlKey) arr.push('ctrl');
   if (input.shiftKey) arr.push('shift');
 
-  for (var k = 0; k < keys.length; k++) {
+  for (var k = 0, len = keys.length; k < len; k++) {
     arr.push(keycode(keys[k]));
   }
 
