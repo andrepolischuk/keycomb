@@ -1,4 +1,4 @@
-# keycomb [![Build Status](https://travis-ci.org/andrepolischuk/keycomb.svg?branch=master)](https://travis-ci.org/andrepolischuk/keycomb)
+# keycomb [![Build Status][travis-image]][travis-url]
 
   > Key combinations parser
 
@@ -45,3 +45,6 @@ keycomb({ctrlKey: true, keyCode: 67});
 ## License
 
   MIT
+
+[travis-url]: https://travis-ci.org/andrepolischuk/keycomb
+[travis-image]: https://travis-ci.org/andrepolischuk/keycomb.svg?branch=master
