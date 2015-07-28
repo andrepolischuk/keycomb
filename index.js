@@ -1,18 +1,5 @@
-
 'use strict';
-
-/**
- * Module dependencies
- */
-
 var keycode = require('keycodes');
-
-/**
- * Expose parser
- * @param  {String|Array|Object} input
- * @return {Object|Array}
- * @api public
- */
 
 module.exports = function(input) {
   if (typeof input === 'string') input = input.replace(/\s/g, '').split('+');
@@ -21,13 +8,6 @@ module.exports = function(input) {
   return combination(input);
 };
 
-/**
- * Get codes
- *
- * @param  {Array} input
- * @return {Object}
- * @api private
- */
 
 function code(input) {
   var obj = {};
@@ -35,7 +15,6 @@ function code(input) {
   obj.altKey = false;
   obj.ctrlKey = false;
   obj.shiftKey = false;
-
   var key;
 
   for (var k = 0, len = input.length; k < len; k++) {
@@ -49,18 +28,9 @@ function code(input) {
   return obj;
 }
 
-/**
- * Get combination
- *
- * @param  {Object} input
- * @return {Array}
- * @api private
- */
-
 function combination(input) {
   var keys = input.keyCode.length ? input.keyCode : [input.keyCode];
   var arr = [];
-
   if (input.altKey) arr.push('alt');
   if (input.ctrlKey) arr.push('ctrl');
   if (input.shiftKey) arr.push('shift');
