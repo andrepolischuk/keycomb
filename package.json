@@ -9,7 +9,7 @@
   ],
   "repository": "andrepolischuk/keycomb",
   "dependencies": {
-    "keycodes": "^0.1.0"
+    "keycodes": "^0.2.0"
   },
   "devDependencies": {
     "mocha": "^2.1.0"
