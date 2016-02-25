@@ -42,9 +42,17 @@ keycomb({altKey: true, keyCode: [65, 77]});
 keycomb({ctrlKey: true, keyCode: 67});
 ```
 
+## Related
+
+* [keycodes][keycodes] — key codes and names
+* [ks][ks] — keyboard shortcuts
+
 ## License
 
   MIT
 
 [travis-url]: https://travis-ci.org/andrepolischuk/keycomb
 [travis-image]: https://travis-ci.org/andrepolischuk/keycomb.svg?branch=master
+
+[keycodes]: https://github.com/andrepolischuk/keycodes
+[ks]: https://github.com/andrepolischuk/ks
